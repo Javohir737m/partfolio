@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    background: #020617;
+    padding: 16px 0;
+}
+.nav__info{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__title{
+    color:  #FACC15;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav__link{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9CA3AF;
+    transition: 0.5s;
+}
+.nav__link:hover{
+    color: #fff;
+}
+
+/* nav end */
+
+/* section  start */
+
+.section{
+    background: #111827;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.section__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.title__section1{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FACC15;
+}
+.title__section2{
+    font-family: Lexend Deca;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    width: 450px;
+}
+.text__section{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+.link__section{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding: 8px 20px;
+    background-color: #FACC15;
+    border-radius: 10px;
+}
+.section__img{
+    width: 427px;
+    height: 427px;
+    border-radius: 24px;
+}
+.nav__menu{
+    width: 30px;
+    height: 30px;
+    display: none;
+    cursor: pointer;
+
+}
+.nav__close{
+    width: 30px;
+    height: 30px;
+    display: none;
+    cursor: pointer;  
+}
+input{
+    display: none;
+}
+header{
+    overflow: hidden;
+}
+
+/* nav tugadi */
+
+/* main boshlandi */
+
+.section__main{
+    background: #020617;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+.main__intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro__img{
+    width: 455px;
+    height: 455px;
+}
+.main__title1{
+    font-family: Lexend Deca;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 32px;
+}
+.main__span{
+    color: #FACC15;
+}
+.main__text{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9CA3AF ;
+    width: 400px;
+    padding-top: 18px;
+}
+.main__link{
+    display: block;
+    margin-top: 40px;
+    font-family: Arvo;
+    font-size: 16px;
+    font-weight: 400;
+    color: #020617;
+    padding: 16px 20px;
+    background-color: #FACC15;
+    width: 110px;
+    border-radius: 10px;
+}
+.header{
+    z-index: -1;
+    overflow: hidden;
+}
+.collection__title1{
+    font-family: Lexend Deca;
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    filter: drop-shadow(0 0 10px #fff);
+}
+.servis__text{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;  
+    color: #6B7280;
+    margin-bottom: 56px;
+}
+.servis__title{
+    font-family: Lexend Deca;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;    
+    padding-bottom: 24px;
+}
+.servis__span{
+    color: #FACC15;
+
+}
+.collection{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.collection__card{
+    width: 300px;
+    height: 250px;
+    background: #020617;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 1px 10px 1px #FACC15;
+    border: 3px solid #FACC15;
+    transition: 0.5s;
+}
+.my__servis{
+    background: #111827;
+    padding: 96px 0;
+}
+.collection__text{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7280;
+    width: 230px;
+    padding-top: 30px;
+
+}
+.collection__card:hover{
+    border: none;
+    box-shadow: 0 0 30px #fff;
+    background-color: #6B7280;
+}
+.collection__card:hover .collection__title1{
+    color: #FACC15;
+    filter: drop-shadow( 0 0 10px #FACC15);
+}
+.collection__card:hover .collection__text{
+    color: #FACC15;
+    filter: drop-shadow(0 0 20px #FACC15);
+}
+.section__sayt{
+    background: #020617;
+    padding: 90px 0;
+}
+.sayt__info{
+    display: flex;
+    gap: 30px;
+}
+.sayt__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sayt__img{
+    width: 370px;
+    border: 3px solid grey;
+    height: 150px;
+}
+.sayt__link{
+    padding: 8px 20px;
+    background-color: #FACC15;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: #020617;
+}
+.sayt__title{
+    font-family: Arvo;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 40px;
+    text-shadow: 0 0 10px #9CA3AF;
+}
+.footer__title{
+    font-family: Lexend Deca;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+.footer__title span{
+    color: #FACC15;
+}
+.footer{
+    background: #191D28;
+    padding: 90px 0;
+}
+.footer__text{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #9CA3AF;
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.footer__link{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FACC15;  
+    text-shadow: 0 0 10px #9CA3AF; 
+}
+.textarea{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    background: #1F2937;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 18px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+
+
+
